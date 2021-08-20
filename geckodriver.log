@@ -3118,3 +3118,27 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1629454542299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUOKBZ3"
+1629454542680	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUOKBZ3/search.json.mozlz4", (void 0)))
+1629454544116	Marionette	INFO	Listening on port 42391
+1629454544221	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629454570275	Marionette	INFO	Stopped listening on port 42391
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629454633293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVzo6wh"
+1629454633665	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVzo6wh/search.json.mozlz4", (void 0)))
+1629454635108	Marionette	INFO	Listening on port 38597
+1629454635212	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629454674055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSERsW3"
+1629454674417	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSERsW3/search.json.mozlz4", (void 0)))
+1629454676339	Marionette	INFO	Listening on port 40613
+1629454676379	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629454677333	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629454684630	Marionette	INFO	Stopped listening on port 40613
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

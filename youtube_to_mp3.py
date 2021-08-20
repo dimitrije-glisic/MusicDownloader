@@ -31,15 +31,15 @@ if __name__ == '__main__':
 	songs = f.readlines()
 
 
-	for idx, pesma in enumerate(pesme):
-		print(f'{idx + 1}.Downloading song: {pesma}...')
+	for idx, song in enumerate(songs):
+		print(f'{idx + 1}.Downloading song: {song}...')
 		url = 'https://www.youtube.com/'
 		driver.get(url)
 		
 		#youtube part
 		search_form = WebDriverWait(driver,60).until(EC.visibility_of_element_located((By.XPATH,'//form[@id="search-form"]')))
 		input_field = WebDriverWait(driver,60).until(EC.visibility_of_element_located((By.XPATH,'//form/div/div/input')))
-		input_field.send_keys(autor + ' ' + pesma)
+		input_field.send_keys(autor + ' ' + song)
 		search_form.submit()
 		time.sleep(2)
 		song_link = WebDriverWait(driver,60).until(EC.visibility_of_element_located((By.XPATH,'//div/div/h3/a')))
